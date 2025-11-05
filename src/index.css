@@ -5,13 +5,21 @@
 
 *{
 font-family: Outfit;
+background-color:#DDD4C5;
 }
 select,input,textarea{
-    border: 1px solid #c2c2c2;
-    outline-color: #c586A5;
+    border: 1px solid #726f6f;
+    outline-color: #7c3c44;
     border-radius: 4px;
 }
 .active{
-    background-color: #ffebf5;
-    border-color: #c586a5;
+    background-color: #ffd5ea;
+    border-color: #722F37;
+}
+
+.active p{
+      background-color: #ffd5ea;
+}
+.active img{
+      background-color: #ffd5ea;
 }
